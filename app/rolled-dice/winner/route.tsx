@@ -4,8 +4,8 @@ import { frames } from "../frames";
 export const POST = frames(async (ctx) => {
   return {
     image: (
-      <div tw="flex flex-col">
-        <div tw="flex">Winner</div>
+      <div tw="flex h-screen w-full justify-center items-center">
+        <div tw="flex">Yayyy! npWinner</div>
       </div>
     ),
     buttons: [
